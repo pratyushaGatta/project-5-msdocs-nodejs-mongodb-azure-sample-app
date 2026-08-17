@@ -350,3 +350,14 @@ MigrationBackup/
 .ionide/
 
 .azure/
+
+# Project 5 - Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+
+# Local environment/secrets
+.env
+
+# Jenkins artifacts
+*.zip
